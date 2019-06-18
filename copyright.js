@@ -1,0 +1,1 @@
+$(document).ready(function () {   $('#vnonecopyright').html('<a href="http://thietkeweb.cuongtin.vn" >Cuogweb</a>');   setInterval(function () {       if (!$('#vnonecopyright:visible').length) window.location.href = 'http://thietkeweb.cuongtin.vn'   }, 1000) }) 
